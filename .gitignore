@@ -1,0 +1,21 @@
+
+# Data files
+*.csv
+*.parquet
+*.xlsx
+
+# Credentials and secrets
+.env
+*.pem
+credentials.json
+
+# Python cache
+__pycache__/
+.ipynb_checkpoints/
+
+# Model artifacts
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
