@@ -1,0 +1,20 @@
+Dataset: Retail Store Dataset
+Platform: Kaggle
+Dataset URL: https://www.kaggle.com/datasets/ashmeetsian/retail-store-dataset
+
+Local file:
+01_Raw_Data/Sales/retail_sales_raw.csv
+
+Observed shape: 2000 rows x 10 columns
+Observed period: 2023-01 to 2024-12
+Categories: Electronics, Clothing, Beauty
+
+Data quality checks:
+- No missing values
+- No duplicate rows or transaction IDs
+- Sales calculation matches Quantity * Price per Unit
+- All 24 months are present
+
+Limitation:
+The original source is identified, but independent verification that
+the transactions represent actual Indian retail sales is still pending.

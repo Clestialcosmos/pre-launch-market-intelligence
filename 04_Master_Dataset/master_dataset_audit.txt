@@ -1,0 +1,63 @@
+Shape: (72, 28)
+
+Columns:
+year_month
+Product Category
+units_sold
+total_sales
+transaction_count
+average_price
+average_age
+demand_growth
+demand_moving_avg_3m
+demand_volatility
+category_demand_index
+search_interest
+interest_growth
+trend_momentum
+trend_index
+demand_index
+interest_demand_gap
+date
+year
+month
+quarter
+season
+month_sin
+month_cos
+seasonality_index
+month_effect
+quarter_effect
+_month
+
+Missing values:
+year_month               0
+Product Category         0
+units_sold               0
+total_sales              0
+transaction_count        0
+average_price            0
+average_age              0
+demand_growth            3
+demand_moving_avg_3m     0
+demand_volatility        0
+category_demand_index    0
+search_interest          0
+interest_growth          0
+trend_momentum           0
+trend_index              0
+demand_index             0
+interest_demand_gap      0
+date                     0
+year                     0
+month                    0
+quarter                  0
+season                   0
+month_sin                0
+month_cos                0
+seasonality_index        0
+month_effect             0
+quarter_effect           0
+_month                   0
+
+Duplicate keys: 0

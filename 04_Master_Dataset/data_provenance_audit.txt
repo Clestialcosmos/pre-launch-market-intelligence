@@ -1,0 +1,43 @@
+PRE-LAUNCH / POST-LAUNCH MARKET INTELLIGENCE
+DATA PROVENANCE AUDIT
+
+Audit date: 2026-10-15
+
+1. Retail sales dataset
+- Rows: 2,000 transactions
+- Period: January 2023 to December 2024
+- Categories: Beauty, Clothing, Electronics
+- Provenance: Original source URL/uploader not yet verified
+- India-market representativeness: Not yet verified
+- Suitable current use: Exploratory category-level demand forecasting
+
+2. Amazon product dataset
+- Rows: 1,465
+- Unique product IDs: 1,351
+- Verified launch dates and actual units sold: Not established
+- Suitable current use: Product/catalog analysis, subject to source verification
+
+3. Flipkart review dataset
+- Rows: 205,052 before deduplication
+- Duplicate rows reported: 34,375
+- Actual sales quantities: Not established
+- Factor 15: Paused; do not include as model features
+
+4. Google Trends
+- Notebook code uses geo=IN and a rolling five-year query
+- Exact historical collection/export provenance: Needs verification
+- trend_index duplicates search_interest
+- demand_index is category-wise min-max normalized from units_sold
+- interest_demand_gap is search_interest minus demand_index
+
+5. Modeling status
+- Category-month master: 72 rows
+- Modeling dataset: 63 rows
+- Rolling validation windows: Four
+- Average Dummy MAE: 13.14
+- Average demand-only Linear Regression MAE: 13.24
+- Model quality: Preliminary; no reliable improvement demonstrated
+
+Important:
+Do not describe this model as validated launch-success prediction.
+Document original source URLs and data collection dates when verified.

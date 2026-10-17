@@ -1,21 +1,44 @@
-
-# Data files
+# Raw, cleaned, engineered and master datasets
 *.csv
 *.parquet
 *.xlsx
+*.xls
+*.jsonl
+*.feather
+*.arrow
+*.duckdb
+*.db
+*.sqlite
+*.sqlite3
+
+# Model artifacts and serialized objects
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.bin
 
 # Credentials and secrets
 .env
+.env.*
+!.env.example
 *.pem
 credentials.json
+service-account*.json
 
-# Python cache
+# Python cache and virtual environments
 __pycache__/
+*.py[cod]
 .ipynb_checkpoints/
+.venv/
+venv/
+env/
 
-# Model artifacts
-*.pkl
-*.joblib
-*.h5
-*.pt
-*.pth
+# Generated logs and temporary files
+*.log
+.DS_Store
