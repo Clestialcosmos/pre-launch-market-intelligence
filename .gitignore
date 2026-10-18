@@ -1,4 +1,4 @@
-# Raw, cleaned, engineered and master datasets
+# Data files
 *.csv
 *.parquet
 *.xlsx
@@ -6,32 +6,32 @@
 *.jsonl
 *.feather
 *.arrow
-*.duckdb
+
+# Databases
 *.db
+*.duckdb
 *.sqlite
 *.sqlite3
 
-# Model artifacts and serialized objects
+# Model artifacts
 *.pkl
 *.pickle
 *.joblib
 *.h5
-*.hdf5
 *.pt
 *.pth
 *.onnx
 *.safetensors
-*.bin
 
 # Credentials and secrets
 .env
 .env.*
-!.env.example
 *.pem
+*.key
 credentials.json
-service-account*.json
+secrets.json
 
-# Python cache and virtual environments
+# Python cache and environments
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
@@ -39,6 +39,5 @@ __pycache__/
 venv/
 env/
 
-# Generated logs and temporary files
-*.log
+# System files
 .DS_Store
